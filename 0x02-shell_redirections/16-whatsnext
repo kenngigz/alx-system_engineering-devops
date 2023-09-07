@@ -1,0 +1,6 @@
+#!/bin/bash
+# This script displays lines containing the pattern "root" and 3 lines after them in /etc/passwd.
+
+# Use grep with context (-A) to find lines containing "root" and display 3 lines after each match
+grep -A 3 "root" /etc/passwd
+`

@@ -1,0 +1,7 @@
+#!/bin/bash
+# This script displays all users and their home directories, sorted by users.
+# It reads from the /etc/passwd file.
+
+# Use awk to extract and format the data
+awk -F':' '{print $1 ":" $6}' /etc/passwd | sort
+

@@ -1,0 +1,6 @@
+#!/bin/bash
+# This script reads a list of words and prints words that appear exactly once.
+
+# Use sort and uniq to count word occurrences, and awk to filter unique words
+sort | uniq -c | awk '$1 == 1 {print $2}'
+

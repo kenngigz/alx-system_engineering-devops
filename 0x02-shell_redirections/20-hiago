@@ -1,0 +1,6 @@
+#!/bin/bash
+# This script removes all occurrences of the letters 'c' and 'C' from the input.
+
+# Use tr to delete 'c' and 'C' characters
+tr -d 'cC'
+

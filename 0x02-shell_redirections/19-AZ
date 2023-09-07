@@ -1,0 +1,6 @@
+#!/bin/bash
+# This script replaces all characters 'A' and 'c' with 'Z' and 'e', respectively, in the input.
+
+# Use sed to perform the replacements
+sed 's/A/Z/g; s/c/e/g'
+
